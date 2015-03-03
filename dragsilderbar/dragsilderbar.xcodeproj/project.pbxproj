@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E6E2EB01AA5AF9000150759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E2EAF1AA5AF9000150759 /* main.m */; };
+		0E6E2EB31AA5AF9000150759 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E2EB21AA5AF9000150759 /* AppDelegate.m */; };
+		0E6E2EB61AA5AF9000150759 /* dragsilderbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E2EB41AA5AF9000150759 /* dragsilderbar.xcdatamodeld */; };
+		0E6E2EB91AA5AF9000150759 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E2EB81AA5AF9000150759 /* ViewController.m */; };
+		0E6E2EBE1AA5AF9000150759 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6E2EBD1AA5AF9000150759 /* Images.xcassets */; };
+		0E6E2ECD1AA5AF9000150759 /* dragsilderbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E2ECC1AA5AF9000150759 /* dragsilderbarTests.m */; };
+		0E6E2EDA1AA5B01800150759 /* DragSilderBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E2ED91AA5B01800150759 /* DragSilderBarView.m */; };
+		0E6E2EDD1AA5B0C800150759 /* UIColor+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E2EDC1AA5B0C800150759 /* UIColor+HTML.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6E2EC71AA5AF9000150759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6E2EA21AA5AF9000150759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6E2EA91AA5AF9000150759;
+			remoteInfo = dragsilderbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E6E2EAA1AA5AF9000150759 /* dragsilderbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dragsilderbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6E2EAE1AA5AF9000150759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6E2EAF1AA5AF9000150759 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6E2EB11AA5AF9000150759 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E6E2EB21AA5AF9000150759 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E6E2EB51AA5AF9000150759 /* dragsilderbar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dragsilderbar.xcdatamodel; sourceTree = "<group>"; };
+		0E6E2EB71AA5AF9000150759 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E6E2EB81AA5AF9000150759 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E6E2EBD1AA5AF9000150759 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E6E2EC61AA5AF9000150759 /* dragsilderbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dragsilderbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6E2ECB1AA5AF9000150759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6E2ECC1AA5AF9000150759 /* dragsilderbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dragsilderbarTests.m; sourceTree = "<group>"; };
+		0E6E2ED81AA5B01800150759 /* DragSilderBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragSilderBarView.h; sourceTree = "<group>"; };
+		0E6E2ED91AA5B01800150759 /* DragSilderBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragSilderBarView.m; sourceTree = "<group>"; };
+		0E6E2EDB1AA5B0C800150759 /* UIColor+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HTML.h"; sourceTree = "<group>"; };
+		0E6E2EDC1AA5B0C800150759 /* UIColor+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HTML.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6E2EA71AA5AF9000150759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6E2EC31AA5AF9000150759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6E2EA11AA5AF9000150759 = {
+			isa = PBXGroup;
+			children = (
+				0E6E2EAC1AA5AF9000150759 /* dragsilderbar */,
+				0E6E2EC91AA5AF9000150759 /* dragsilderbarTests */,
+				0E6E2EAB1AA5AF9000150759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E6E2EAB1AA5AF9000150759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6E2EAA1AA5AF9000150759 /* dragsilderbar.app */,
+				0E6E2EC61AA5AF9000150759 /* dragsilderbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E6E2EAC1AA5AF9000150759 /* dragsilderbar */ = {
+			isa = PBXGroup;
+			children = (
+				0E6E2EDB1AA5B0C800150759 /* UIColor+HTML.h */,
+				0E6E2EDC1AA5B0C800150759 /* UIColor+HTML.m */,
+				0E6E2ED71AA5AFFE00150759 /* class */,
+				0E6E2EB11AA5AF9000150759 /* AppDelegate.h */,
+				0E6E2EB21AA5AF9000150759 /* AppDelegate.m */,
+				0E6E2EB71AA5AF9000150759 /* ViewController.h */,
+				0E6E2EB81AA5AF9000150759 /* ViewController.m */,
+				0E6E2EBD1AA5AF9000150759 /* Images.xcassets */,
+				0E6E2EB41AA5AF9000150759 /* dragsilderbar.xcdatamodeld */,
+				0E6E2EAD1AA5AF9000150759 /* Supporting Files */,
+			);
+			path = dragsilderbar;
+			sourceTree = "<group>";
+		};
+		0E6E2EAD1AA5AF9000150759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6E2EAE1AA5AF9000150759 /* Info.plist */,
+				0E6E2EAF1AA5AF9000150759 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E6E2EC91AA5AF9000150759 /* dragsilderbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E6E2ECC1AA5AF9000150759 /* dragsilderbarTests.m */,
+				0E6E2ECA1AA5AF9000150759 /* Supporting Files */,
+			);
+			path = dragsilderbarTests;
+			sourceTree = "<group>";
+		};
+		0E6E2ECA1AA5AF9000150759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6E2ECB1AA5AF9000150759 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E6E2ED71AA5AFFE00150759 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				0E6E2ED81AA5B01800150759 /* DragSilderBarView.h */,
+				0E6E2ED91AA5B01800150759 /* DragSilderBarView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E6E2EA91AA5AF9000150759 /* dragsilderbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6E2ED01AA5AF9000150759 /* Build configuration list for PBXNativeTarget "dragsilderbar" */;
+			buildPhases = (
+				0E6E2EA61AA5AF9000150759 /* Sources */,
+				0E6E2EA71AA5AF9000150759 /* Frameworks */,
+				0E6E2EA81AA5AF9000150759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dragsilderbar;
+			productName = dragsilderbar;
+			productReference = 0E6E2EAA1AA5AF9000150759 /* dragsilderbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E6E2EC51AA5AF9000150759 /* dragsilderbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6E2ED31AA5AF9000150759 /* Build configuration list for PBXNativeTarget "dragsilderbarTests" */;
+			buildPhases = (
+				0E6E2EC21AA5AF9000150759 /* Sources */,
+				0E6E2EC31AA5AF9000150759 /* Frameworks */,
+				0E6E2EC41AA5AF9000150759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6E2EC81AA5AF9000150759 /* PBXTargetDependency */,
+			);
+			name = dragsilderbarTests;
+			productName = dragsilderbarTests;
+			productReference = 0E6E2EC61AA5AF9000150759 /* dragsilderbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6E2EA21AA5AF9000150759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = bluezsoft.inc;
+				TargetAttributes = {
+					0E6E2EA91AA5AF9000150759 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0E6E2EC51AA5AF9000150759 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0E6E2EA91AA5AF9000150759;
+					};
+				};
+			};
+			buildConfigurationList = 0E6E2EA51AA5AF9000150759 /* Build configuration list for PBXProject "dragsilderbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E6E2EA11AA5AF9000150759;
+			productRefGroup = 0E6E2EAB1AA5AF9000150759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6E2EA91AA5AF9000150759 /* dragsilderbar */,
+				0E6E2EC51AA5AF9000150759 /* dragsilderbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6E2EA81AA5AF9000150759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6E2EBE1AA5AF9000150759 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6E2EC41AA5AF9000150759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6E2EA61AA5AF9000150759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6E2EDD1AA5B0C800150759 /* UIColor+HTML.m in Sources */,
+				0E6E2EB61AA5AF9000150759 /* dragsilderbar.xcdatamodeld in Sources */,
+				0E6E2EDA1AA5B01800150759 /* DragSilderBarView.m in Sources */,
+				0E6E2EB31AA5AF9000150759 /* AppDelegate.m in Sources */,
+				0E6E2EB91AA5AF9000150759 /* ViewController.m in Sources */,
+				0E6E2EB01AA5AF9000150759 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6E2EC21AA5AF9000150759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6E2ECD1AA5AF9000150759 /* dragsilderbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E6E2EC81AA5AF9000150759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6E2EA91AA5AF9000150759 /* dragsilderbar */;
+			targetProxy = 0E6E2EC71AA5AF9000150759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E6E2ECE1AA5AF9000150759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E6E2ECF1AA5AF9000150759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E6E2ED11AA5AF9000150759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = dragsilderbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E6E2ED21AA5AF9000150759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = dragsilderbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E6E2ED41AA5AF9000150759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dragsilderbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragsilderbar.app/dragsilderbar";
+			};
+			name = Debug;
+		};
+		0E6E2ED51AA5AF9000150759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dragsilderbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragsilderbar.app/dragsilderbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E6E2EA51AA5AF9000150759 /* Build configuration list for PBXProject "dragsilderbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6E2ECE1AA5AF9000150759 /* Debug */,
+				0E6E2ECF1AA5AF9000150759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6E2ED01AA5AF9000150759 /* Build configuration list for PBXNativeTarget "dragsilderbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6E2ED11AA5AF9000150759 /* Debug */,
+				0E6E2ED21AA5AF9000150759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6E2ED31AA5AF9000150759 /* Build configuration list for PBXNativeTarget "dragsilderbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6E2ED41AA5AF9000150759 /* Debug */,
+				0E6E2ED51AA5AF9000150759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E6E2EB41AA5AF9000150759 /* dragsilderbar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E6E2EB51AA5AF9000150759 /* dragsilderbar.xcdatamodel */,
+			);
+			currentVersion = 0E6E2EB51AA5AF9000150759 /* dragsilderbar.xcdatamodel */;
+			path = dragsilderbar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0E6E2EA21AA5AF9000150759 /* Project object */;
+}
